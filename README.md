@@ -1,6 +1,10 @@
-## DNS.js
+## DNSjs
 
-DNS.js
+Abstract Name Resolving Library
+
+### Currectly Available Implementations
+
+* [Namecoin Resolving Library](https://www.npmjs.com/package/nmcns)
 
 ### The MIT License (MIT)
 
