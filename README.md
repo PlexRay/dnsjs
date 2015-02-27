@@ -1,15 +1,15 @@
 ## DNSjs
-
 [![Join the chat at https://gitter.im/PlexRay/dnsjs](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/PlexRay/dnsjs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Abstract Name Resolving Library
 
 ### Currectly Available Implementations
-
 * [Namecoin Resolving Library](https://www.npmjs.com/package/nmcns)
 
-### The MIT License (MIT)
+### Examples
+* [Simple DNS Server](https://github.com/PlexRay/nmcns-simple-server)
 
+### The MIT License (MIT)
 Copyright (c) 2015 PlexRay, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
