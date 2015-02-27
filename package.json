@@ -1,0 +1,59 @@
+{
+    "name": "dnsjs",
+    "description": "DNSjs",
+    "version": "0.1.0",
+    "private": false,
+    "main": "./lib/index.js",
+    "author": {
+        "name": "PlexRay, Inc.",
+        "email": "info@plexrayinc.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:PlexRay/dnsjs.git"
+    },
+    "bugs": {
+        "url": "https://github.com/PlexRay/dnsjs/issues"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/PlexRay/dnsjs/raw/master/LICENSE"
+    }],
+    "dependencies": {
+        "async": "^0.9",
+        "compose-extend": "^1.0",
+        "debug": "^2.1",
+        "bluebird": "^2.9.12",
+        "lodash": "^3.3.1",
+        "native-dns-packet": "^0.1.1",
+        "ipaddr.js": "^0.1.8",
+        "util": "^0.10"
+    },
+    "devDependencies": {
+        "brfs": "^1.4",
+        "express": "^4.12",
+        "browserify": "^9.0",
+        "chai": "^2.1",
+        "grunt": "^0.4",
+        "grunt-browserify": "^3.4",
+        "browserify-shim": "^3.8.3",
+        "grunt-cli": "^0.1",
+        "grunt-contrib-handlebars": "^0.9",
+        "grunt-contrib-jshint": "^0.11",
+        "grunt-contrib-uglify": "^0.8",
+        "grunt-contrib-watch": "^0.6",
+        "grunt-simple-mocha": "^0.4",
+        "grunt-sync": "^0.2.3",
+        "load-grunt-tasks": "^3.1",
+        "mocha": "^2.1",
+        "unit.js": "^1.1"
+    },
+    "browserify-shim": {
+        "lodash": "global:_"
+    },
+    "scripts": {
+        "build": "node node_modules/grunt-cli/bin/grunt build",
+        "devel": "node node_modules/grunt-cli/bin/grunt devel",
+        "test": "node node_modules/grunt-cli/bin/grunt test"
+    }
+}
